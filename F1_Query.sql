@@ -17,7 +17,7 @@ OFFSET 0 ROWS FETCH FIRST 10 ROWS ONLY;
 
 
 --- This Query Shows How many times a driver from a specific nationality took part in a race ---
-SELECT [Driver's nationality], COUNT([Driver's nationality]) AS Races_done
+SELECT [Driver''s nationality], COUNT([Driver's nationality]) AS Races_done
 FROM results$
 GROUP BY [Driver's nationality]
 ORDER BY Races_done DESC
