@@ -28,11 +28,12 @@ SELECT [Event name],COUNT (DISTINCT([Event date])) AS Total
 FROM results$
 GROUP BY [Event name]
 
----
+--- This Query Shows Total number of Constructors, Drivers, Venues, Number of races and Years in F1 History ---- 
 SELECT COUNT(DISTINCT(CONCAT_WS(' ',[Driver's forename],[Driver's surname]))) AS Number_of_drivers,
-	   COUNT (DISTINCT([Event date])) AS Number_of_races,
-	   DATEDIFF(yy,'1950/05/13','2021/12/12') AS Years_of_F1,
-	   COUNT(DISTINCT([Event name])) AS Venues
+       COUNT(DISTINCT([Constructor name])) AS Number_of_Constructors, 
+       COUNT (DISTINCT([Event date])) AS Number_of_races,
+       DATEDIFF(yy,'1950/05/13','2021/12/12') AS Years_of_F1,
+       COUNT(DISTINCT([Event name])) AS Venues
 FROM results$
 
 
