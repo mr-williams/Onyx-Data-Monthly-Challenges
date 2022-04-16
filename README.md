@@ -1,5 +1,5 @@
 # Onyx-Data-Monthly-Challenges
-This repository will show a monthly addition based on the onyx-DATA challenge. Most of these would be done using SQL Server.
+This repository will show a monthly addition based on the onyx-DATA challenge. Most of these would be done using SQL Server and Tableau
 
 ## April 2022:
   This month the challenge is about Formula 1. Formula 1 is the pinnacle of motorsport and the challenge is to find out and showcase which
